@@ -1,9 +1,10 @@
 // QUESTION NO 1
 
-let number = ['5','4','9'];
+let number = ['8','5','4','9'];
 console.log(number);
 // number.sort();
-console.log(number.sort())
+var sot = number.sort()
+console.log(sot)
 
 
 // QUESTION NO : 2 
