@@ -2,8 +2,8 @@
 
 let number = ['5','4','9'];
 console.log(number);
-number.sort();
-console.log(number)
+// number.sort();
+console.log(number.sort())
 
 
 // QUESTION NO : 2 
@@ -66,7 +66,7 @@ var n = 1000;
 for(var i = 0 ; i<=n ; i++){
     if (i % 3===0 && i % 5 === 0 ) {
         
-        console.log(i);
+        console.log(i + "  multiple of 3 & 5 ");
     }
 }
 
