@@ -23,13 +23,13 @@ for(var i=0 ; i<arry.length; i++){
  
 for(var i=0; i<=15; i++ ){
     if (i===0) {
-        console.log(i + 'is even');
+        console.log(i + ' is even');
     }  
     else if (i % 2 === 0) {
-        console.log(i + 'is even');
+        console.log(i + ' is even');
     }
     else{
-        console.log(i + 'is odd');
+        console.log(i + ' is odd');
     }
 }
 
@@ -38,13 +38,13 @@ for(var i=0; i<=15; i++ ){
 
 for (let i = 0; i <=100; i++){
     if (i % 3 === 0 && i % 5 === 0){
-        console.log(i + "fizzbuzz");
+        console.log(i + " fizzbuzz");
     }
     else if (i % 5 === 0 ){
-        console.log(i + "Buzz");
+        console.log(i + " Buzz");
     }
     else if  (i % 3 === 0) {
-        console.log(i + "Fizz");
+        console.log(i + " Fizz");
 }
 }
 
